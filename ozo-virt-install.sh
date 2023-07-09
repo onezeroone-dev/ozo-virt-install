@@ -133,7 +133,7 @@ EXIT=0
 CONFIGURATION="${1}"
 
 LEVEL="info" MESSAGE="Starting OZO Virt-Install." ozo-log
-if ozo-virt-install > /dev/null 2&>1
+if ozo-virt-install > /dev/null 2>&1
 then
   LEVEL="info" MESSAGE="OZO Virt-Install finished with success." ozo-log
 else
