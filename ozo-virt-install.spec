@@ -1,5 +1,5 @@
 Name:      ozo-virt-install
-Version:   1.0.0
+Version:   1.0.1
 Release:   1%{?dist}
 Summary:   Assists with virtual server deployment using virt-install
 BuildArch: noarch
