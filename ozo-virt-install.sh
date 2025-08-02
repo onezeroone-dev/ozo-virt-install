@@ -1,9 +1,10 @@
 #!/bin/bash
 # Script Name: ozo-virt-install.sh
-# Version    : 1.0.0
+# Version    : 1.0.1
 # Description: This script assists with virtual server deployment using virt-install to define and start a guest (domain) on a Linux KVM host.
 # Usage      : /usr/sbin/ozo-virt-install.sh /path/to/guest.conf
 # Author     : Andy Lievertz <alievertz@onezeroone.dev>
+# Link       : https://github.com/onezeroone-dev/ozo-virt-install/blob/main/README.md
 
 # FUNCTIONS
 function ozo-log {
@@ -23,7 +24,7 @@ function ozo-log {
     if [[ -n "${MESSAGE}" ]]
     then
         # Message is not null; log the MESSAGE with LEVEL
-        logger -p local0.${LEVEL} -t "OZO Rdiff-Backup" "${MESSAGE}"
+        logger -p local0.${LEVEL} -t "OZO Virt-Install" "${MESSAGE}"
     fi
 }
 
