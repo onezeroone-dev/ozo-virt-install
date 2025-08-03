@@ -29,5 +29,7 @@ cp ozo-virt-install.sh $RPM_BUILD_ROOT/usr/sbin
 %attr (0700,root,root) /usr/sbin/ozo-virt-install.sh
 
 %changelog
+* Sat Aug 02 2025 One Zero One RPM Manager <repositories@onezeroone.dev> - 1.0.1-1
+- Corrected message label in ozo-log function
 * Sun Mar 19 2023 One Zero One RPM Manager <repositories@onezeroone.dev> - 1.0.0-1
 - Initial release
